@@ -22,8 +22,8 @@ terraform {
 # variable "mongodb_atlas_api_key" {}
 
 provider "mongodbatlas" {
-  public_key  = "OKNAYOVH"
-  private_key = "81ff6fb1-beaa-4bd1-89e7-68efdd51c895"
+  public_key  = ""
+  private_key = ""
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
