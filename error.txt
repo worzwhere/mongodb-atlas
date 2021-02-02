@@ -1,0 +1,16 @@
+Not able to create M0/2/5
+Error: error creating MongoDB Cluster: POST https://cloud.mongodb.com/api/atlas/v1.0/groups/60177ae32656a014828fbda6/clusters: 400 (request "INVALID_ENUM_VALUE") An invalid enumeration value M2 was specified.
+
+https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/cluster
+
+IMPORTANT:
+
+• Free tier cluster creation (M0) is not supported via API or by this Provider.
+• Shared tier clusters (M2, M5) cannot be upgraded to higher tiers via API or by this Provider.
+• Changes to cluster configurations can affect costs. Before making changes, please see Billing.
+
+• If your Atlas project contains a custom role that uses actions introduced in a specific MongoDB version, you cannot create a cluster with a MongoDB version less than that version unless you delete the custom role.
+
+
+Not able to create M20
+Error: error creating MongoDB Cluster: POST https://cloud.mongodb.com/api/atlas/v1.0/groups/60177ae32656a014828fbda6/clusters: 402 (request "NO_PAYMENT_INFORMATION_FOUND") No payment information was found for group 60177ae32656a014828fbda6.
