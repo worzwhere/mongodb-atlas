@@ -1,5 +1,5 @@
 Not able to create M0/2/5
-Error: error creating MongoDB Cluster: POST https://cloud.mongodb.com/api/atlas/v1.0/groups/60177ae32656a014828fbda6/clusters: 400 (request "INVALID_ENUM_VALUE") An invalid enumeration value M2 was specified.
+Error: error creating MongoDB Cluster: POST https://cloud.mongodb.com/api/atlas/v1.0/groups/60177ae32656a014828fbda6/clusters: 400 (request "INVALID_ENUM_VALUE") An invalid enumeration value M0 was specified.
 
 https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs/resources/cluster
 
