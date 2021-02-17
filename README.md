@@ -81,14 +81,7 @@ You can add them manually, or through other Terraform resources, and pass it to 
       region : "eu-west-1"
       vpc_id : "vpc-0240c8a47312svc3e"
       route_table_cidr_block : "172.16.0.0/16"
-    },
-    vpc_peer2 : {
-      aws_account_id : "0205432147877"
-      region : "eu-central-1"
-      vpc_id : "vpc-0f0dd82430bhv0e1a"
-      route_table_cidr_block : "172.17.0.0/16"
     }
-  }
 ```
 
 You can see this [example](https://github.com/guyelia/terraform-aws-mongodbatlas/blob/master/examples/basic/main.tf) in the examples folder.
