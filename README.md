@@ -97,7 +97,7 @@ You can see this [example](https://github.com/guyelia/terraform-aws-mongodbatlas
 
 | Name | Version |
 |------|---------|
-|mongodbatlas|
+|mongodbatlas| 4.4 |
 
 
 
